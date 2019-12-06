@@ -1,4 +1,4 @@
-# theweathermap
+# Weather Map Morocco
 <a href="https://theweathermap.surge.sh" target="_blank" rel="noopener noreferrer"><h2>Weather Map Morocco</h2></a>
 
 <h3>This is a web application which you can know the weather based on a map of morocco</h3>
