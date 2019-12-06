@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+ main{
+    height: 300px;
+    width: 150px;
+    display: flex;
+    overflow: auto;
+    font-family: 'Alatsi', sans-serif;
+    padding: 3px;
+    margin: -11px;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(lightblue,#52ccee);
+    align-items: center;
+    border-radius: 10px;
+    color: #00303d;
+    
+}
+.location, .temperatur{
+    height: 95%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.location h1{
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 20px;
+    color: rgb(103, 140, 161);
+}
+.temperatur{
+    flex-direction: column;
+}
+.degre{
+    font-size: 70px;
+    color: #fdffd6;
+}
+.temperatur div{
+    display: flex;
+}
+#fc{
+    color: aliceblue;
+    font-size: 18px;
+    cursor: pointer;
+}
+.discription{
+    font-size: 20px;
+    margin-top:0px ;
+    margin-bottom: 20px;
+    color: rgb(86, 140, 187);
+}
+
+.leaflet-popup-content-wrapper{
+    padding: 3px;
+    margin:0px ;
+}
+.copyright{
+    display: flex;
+    padding-left:5px ;
+
+}
+.social a{
+    padding-left:5px ;
+}
